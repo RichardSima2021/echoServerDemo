@@ -57,7 +57,7 @@ int main(int argc, char **argv) {
 
     char *host, *port, buf[MAXLINE];
     host = argv[1];
-    port= argv[2];
+    port = argv[2];
 
     clientfd= open_clientfd(host, port);
 
